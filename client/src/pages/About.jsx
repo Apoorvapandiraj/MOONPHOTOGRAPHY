@@ -136,19 +136,19 @@ const team = [
   {
     name: "David Moon",
     role: "Lead Photographer",
-    image: "/team-1.jpg",
+    image: "./team-1.jpg",
     bio: "With 15 years of experience in astronomical photography, David leads our creative vision."
   },
   {
     name: "Sarah Star",
     role: "Technical Director",
-    image: "/team-2.jpg",
+    image: "./team-2.jpg",
     bio: "Expert in advanced photography equipment and astronomical timing."
   },
   {
     name: "Michael Nova",
     role: "Creative Director",
-    image: "/team-3.jpg",
+    image: "./team-3.jpg",
     bio: "Specializes in composition and artistic direction for unique lunar captures."
   }
 ];

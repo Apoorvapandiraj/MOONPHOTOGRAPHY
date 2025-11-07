@@ -11,7 +11,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/MOONPHOTOGRAPHY">
       <div className="font-poppins bg-gradient-moon min-h-screen text-white">
         <Navbar />
         <Routes>

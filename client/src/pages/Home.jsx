@@ -13,7 +13,7 @@ const Home = () => {
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
           transition={{ duration: 1.5 }}
-          className="absolute inset-0 bg-[url('/moon-bg.jpg')] bg-cover bg-center"
+          className="absolute inset-0 bg-[url('./moon-bg.jpg')] bg-cover bg-center"
           style={{
             backgroundImage: "linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.9))",
           }}

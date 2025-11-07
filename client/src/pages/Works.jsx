@@ -115,25 +115,25 @@ const categories = [
 
 const galleryImages = [
   {
-    url: '/gallery/full-moon-1.jpg',
+    url: './gallery/full-moon-1.jpg',
     title: 'Full Moon Glory',
     description: 'A detailed capture of the full moon showing its magnificent craters and maria.',
     category: 'full-moon'
   },
   {
-    url: '/gallery/eclipse-1.jpg',
+    url: './gallery/eclipse-1.jpg',
     title: 'Lunar Eclipse',
     description: 'The moon during a total lunar eclipse, showcasing the blood moon effect.',
     category: 'eclipse'
   },
   {
-    url: '/gallery/phase-1.jpg',
+    url: './gallery/phase-1.jpg',
     title: 'Waxing Crescent',
     description: 'A delicate crescent moon phase with earthshine.',
     category: 'phases'
   },
   {
-    url: '/gallery/landscape-1.jpg',
+    url: './gallery/landscape-1.jpg',
     title: 'Mountain Moonrise',
     description: 'The moon rising over mountain peaks at twilight.',
     category: 'landscape'
