@@ -1,6 +1,5 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { resolve } from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -8,9 +7,15 @@ export default defineConfig({
   base: '/MOONPHOTOGRAPHY/',
   build: {
     outDir: 'dist',
+    assetsDir: 'assets',
+    emptyOutDir: true,
+    sourcemap: true,
     rollupOptions: {
-      input: {
-        main: resolve(__dirname, 'index.html'),
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom', 'react-router-dom'],
+          animations: ['framer-motion', 'react-intersection-observer'],
+        },
       },
     },
   },
